@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
+    <style>
+        body{
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+}
+div{
+    float:left;
+    display: flex;
+    box-sizing: border-box;
+}
+.content{
+    padding:37px 10px 10px 10px;
+    background-color: rosybrown;
+    border:2px solid black;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top:0;
+    right:0;
+    padding:4px;
+    font-size:24px;
+    background-color: gray;
+    border:1px solid black
+}
+@media (min-width:992px){
+    #p1, #p2, #p3{
+       width:33.33%;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #p1, #p2{
+        width:50%;
+    }
+    #p3{
+        width:100%;
+        margin-top: 3px;
+    }
+}
+@media (max-width:767px){
+    #p2, #p3{
+        margin-top:3px;
+    }
+}
+    </style>
 </head>
 
 <body>
