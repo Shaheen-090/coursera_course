@@ -1,9 +1,9 @@
 body{
-    height: 900px;
+    height: 700px;
 }
-div.chicken, div.Beaf, div.Sushi{
+div.chicken{
     border: 2px solid black;
-    margin:10px 9px 20px 9px;
+    margin:10px 14px 20px 14px;
     padding:10px;
     background-color:gray;
     color:black;
